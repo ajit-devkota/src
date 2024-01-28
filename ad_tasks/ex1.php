@@ -12,7 +12,7 @@
 
     <?php
     // use backslash to escape special characters like " "
-    echo "Hello world! My name is /"David/"";
+    echo "Hello world! My name is  \"David\"";
     ?>
     <h3>3.2 Create a PHP variable named $title and assign it the value "PHP is interesting."
          Then, use this variable as the content within an <h4> (heading 4) element</h3>
@@ -51,6 +51,6 @@
 </table>
    <h3>Take a screenshot that confirms your development environment setup and
      include it as an image in the "ex1.php" file.</h3>
-     <img src="images"
+     <img src= "images/php24.png">
 </body>
 </html>
