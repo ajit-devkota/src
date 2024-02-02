@@ -29,6 +29,10 @@ body {
     margin: 0; 
     margin-left: 0; 
   }
+  h3{
+    color:black;
+    font-size: medium;
+}
   h4{
     color: red;
   }

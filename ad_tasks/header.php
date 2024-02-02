@@ -24,10 +24,10 @@
         
 
         <nav>
-            <a href="ex2.php">Exercise 2</a>
             <a href="ex1.php">Exercise 1</a>
-            <a href="#">Exercise 3</a>
-            <a href="#">Exercise 4</a>
+            <a href="ex2.php">Exercise 2</a>
+            <a href="ex3.php">Exercise 3</a>
+            <a href="ex4.php">Exercise 4</a>
         </nav>
     </header>
 

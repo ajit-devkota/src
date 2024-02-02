@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php include 'header.php';?>
+<link rel="stylesheet" href="style.css">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -53,4 +53,4 @@
      include it as an image in the "ex1.php" file.</h3>
      <img src="images/dt.png"alt="web development environment">
 </body>
-</html>
+     <?php include 'footer.php';?>

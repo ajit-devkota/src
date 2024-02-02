@@ -1,4 +1,4 @@
-<?php include 'header.php' ?>
+<?php include 'header.php'; ?>
 <link rel="stylesheet" href="style2.css">
 <div class="container">
     <form>
@@ -22,4 +22,4 @@
 
     
   </div>
-<?php include 'footer.php' ?>
+<?php include 'footer.php'; ?>
