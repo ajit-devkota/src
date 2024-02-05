@@ -14,7 +14,7 @@
 //Check if the form has been submitted
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Process form data
-    $nimi = isset($_POST["name"]) ? $_POST["name"] : '';
+    $name = isset($_POST["name"]) ? $_POST["name"] : '';
     $email = isset($_POST["email"]) ? $_POST["email"] : '';
     $dob = isset($_POST["dob"]) ? $_POST["dob"] : '';
     $color = isset($_POST["color"]) ? $_POST["color"] : '';
@@ -71,4 +71,5 @@ echo "Sum of the numbers: $sum";
 $userAgent = $_SERVER['HTTP_USER_AGENT'];
 echo "User Agent: $userAgent";
 ?>
+
 <?php include 'footer.php'; ?>

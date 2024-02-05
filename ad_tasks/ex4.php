@@ -14,11 +14,9 @@
     ?>
     <form method="post" action="">
         <label for="name">Name:</label>
-
         <input type="text" name="name" required><br>
 
         <label for="age">Age:</label>
-        
         <input type="number" name="age" required><br>
 
         <input type="submit" name="submit" value="Check Eligibility">
@@ -53,10 +51,10 @@ while ($counter <= $n) {
 
 <h3>Foreach Loop: Print Elements of an Array</h3>
 <?php
-$month = array("January", "February", "March", "April");
+$myarray = array("HTML", "CSS", "PHP", "JavaScript");
 
-foreach ($month as $month) {
-    echo "$month ";
+foreach ($myarray as $myarray) {
+    echo "$myarray ";
 }
 ?>
 <?php include 'footer.php'; ?>

@@ -33,6 +33,15 @@
                 </div>
             </div>
         </div>
+        <div class="footer-col">
+        <h4>File Modification Time</h4>
+        <?php
+        $filename = basename($_SERVER['PHP_SELF']);
+        $lastModifiedTime = filemtime($filename);
+        $formattedTime = date("F d Y H:i:s", $lastModifiedTime);
+        echo "<p>Last modified: $formattedTime</p>";
+        ?>
+        </div>   
 
         <div class="footer-col social-icons">
             <h4>Get In Touch</h4>
