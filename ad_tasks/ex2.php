@@ -1,5 +1,5 @@
 <?php include 'header.php'; ?>
-<link rel="stylesheet" href="style2.css">
+<link rel="stylesheet" href="style.css">
 <div class="container">
     <form>
       <div class="form-group">

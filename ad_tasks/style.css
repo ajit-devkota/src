@@ -3,8 +3,8 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
-    color: black;
 }
+
 header {
     background-color: white;
     color: red;
@@ -14,34 +14,38 @@ header {
     align-items: center; 
     justify-content: space-between;
 }
+
 .logo-container {
     display: flex;
     align-items: flex-end;
 }
 
 header img {
-    margin-right: 20px;
+    margin-right: 20px; 
 }
 
 h1 {
     margin: 0; 
     margin-left: 10px;
-    color: red;
-    
 }
-h2{
-    color: red;
 
-}
-h3{
-    color:black;
-    font-size: medium;
-}
 h1,
 p {
     margin: 0; 
-    margin-left: 10px; 
-  
+    margin-left: 0; 
+}
+
+h3 {
+    color: black;
+    font-size: medium;
+}
+
+h4 {
+    color: red;
+}
+
+h4, p {
+    padding-right: 15px;
 }
 
 nav {
@@ -57,23 +61,40 @@ nav a {
     font-weight: bold;
 }
 
-section {
-    padding: 2em;
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
 }
 
-h4{
-    color: red ;
+label {
+    display: inline-block;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 0.5px solid #ccc; 
+}
+
+button {
+    background-color: #0578ec;
+    color: rgb(255, 252, 252);
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer; 
 }
 
 .footer {
     display: flex;
     justify-content: space-around;
-    
     background-size: cover;
     background-position: center;
     color: white;
     position: relative; 
-    background-image: url(images/footer\ image.jpg);
+    background-image: url(image/footer\ image.jpg);
+    margin-top: 11px;
 }
 
 .footer::before {
@@ -83,7 +104,7 @@ h4{
     right: 0;
     bottom: 0;
     left: 0;
-    
+    background-color: rgba(0, 0, 0, 0.5); 
 }
 
 .footer-col {
@@ -107,19 +128,15 @@ h4{
 }
 
 .contact-item img {
-    width: 20px;  
+    width: 20px; 
     height: 20px;
     margin-right: 5px; 
 }
-
-
-
 
 .contact {
     text-align: center;
     margin-top: 20px;
 }
-
 
 .footer-col.social-icons {
     text-align: center;
@@ -138,10 +155,6 @@ h4{
     width: 30px; 
     height: 30px;
 }
-#home {
-    padding: 2em;
-    text-align: center;
-}
 
 .image-container {
     display: flex;
@@ -153,11 +166,6 @@ h4{
     width: 30%; 
     height: auto;
 }
-section {
-    padding: 2em;
-}
-
-
 
 #home {
     padding: 2em;
@@ -170,24 +178,14 @@ section {
     margin-top: 20px; 
 }
 
-
-.text-between{
-    margin-top: 60px;
-}
-
-
 @media screen and (max-width: 600px) {
     h1 {
         font-size: 1.5em; 
     }
-
     p {
         font-size: 0.8em; 
-
+    }
     .image-container img {
         width: 100%; 
     }
-
-    
-}
 }

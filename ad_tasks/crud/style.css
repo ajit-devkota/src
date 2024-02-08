@@ -3,8 +3,9 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
-  }
-  header {
+}
+
+header {
     background-color: white;
     color: red;
     padding: 1em;
@@ -12,66 +13,80 @@ body {
     display: flex;
     align-items: center; 
     justify-content: space-between;
-  }
-  .logo-container {
+}
+
+.logo-container {
     display: flex;
     align-items: flex-end;
-  }
-  header img {
+}
+
+header img {
     margin-right: 20px; 
-  }
-  h1 {
+}
+
+h1 {
     margin: 0; 
     margin-left: 10px;
-  }
-  h1,
-  p {
+}
+
+h1,
+p {
     margin: 0; 
     margin-left: 0; 
-  }
-  h3{
-    color:black;
+}
+
+h3 {
+    color: black;
     font-size: medium;
 }
-  h4{
+
+h4 {
     color: red;
-  }
-  h4, p{
+}
+
+h4, p {
     padding-right: 15px;
-  }
-  nav {
+}
+
+nav {
     display: flex;
     margin-left: auto;
-  }
-  nav a {
+}
+
+nav a {
     color: red;
     text-decoration: none;
     padding: 1em;
     margin: 0 1em;
     font-weight: bold;
-  }
-  .form-group {
+}
+
+.form-group {
     margin-bottom: 20px;
     text-align: left;
-  }
-  label {
+}
+
+label {
     display: inline-block;
     margin-bottom: 5px;
     text-align: left;
-  }
-  input, textarea {
+}
+
+input, textarea {
     width: 100%;
     padding: 10px;
     border: 0.5px solid #ccc; 
-  }
-  button {
+}
+
+button {
     background-color: #0578ec;
     color: rgb(255, 252, 252);
     padding: 5px 10px;
     border: none;
     cursor: pointer; 
-  }
-  .footer {
+}
+
+.footer {
     display: flex;
     justify-content: space-around;
     background-size: cover;
@@ -80,8 +95,9 @@ body {
     position: relative; 
     background-image: url(image/footer\ image.jpg);
     margin-top: 11px;
-  }
-  .footer::before {
+}
+
+.footer::before {
     content: "";
     position: absolute;
     top: 0;
@@ -89,8 +105,9 @@ body {
     bottom: 0;
     left: 0;
     background-color: rgba(0, 0, 0, 0.5); 
-  }
-  .footer-col {
+}
+
+.footer-col {
     background-color: rgba(0, 0, 0, 0.7);
     border-radius: 5px;
     width: 25%;
@@ -98,57 +115,70 @@ body {
     box-sizing: border-box;
     padding: 10px;
     color: white;
-  }
-  .contact-info {
+}
+
+.contact-info {
     margin-top: 10px;
-  }
-  .contact-item {
+}
+
+.contact-item {
     display: flex;
     align-items: center;
     margin-bottom: 10px; 
-  }
-  .contact-item img {
+}
+
+.contact-item img {
     width: 20px; 
     height: 20px;
     margin-right: 5px; 
-  }
-  .contact {
+}
+
+.contact {
     text-align: center;
     margin-top: 20px;
-  }
-  .footer-col.social-icons {
+}
+
+.footer-col.social-icons {
     text-align: center;
-  }
-  .social-icons-container {
+}
+
+.social-icons-container {
     margin-top: 10px;
-  }
-  .social-icons-container a {
+}
+
+.social-icons-container a {
     display: inline-block;
     margin: 0 10px;
-  }
-  .social-icons-container img {
+}
+
+.social-icons-container img {
     width: 30px; 
     height: 30px;
-  }
-  .image-container {
+}
+
+.image-container {
     display: flex;
     justify-content: space-around;
     margin-top: 20px; 
-  }
-  .image-container img {
+}
+
+.image-container img {
     width: 30%; 
     height: auto;
-  }
-  #home {
+}
+
+#home {
     padding: 2em;
     text-align: center;
-  }
-  .content-container {
+}
+
+.content-container {
     display: flex;
     justify-content: space-between;
     margin-top: 20px; 
-  }
-  @media screen and (max-width: 600px) {
+}
+
+@media screen and (max-width: 600px) {
     h1 {
         font-size: 1.5em; 
     }
@@ -158,5 +188,4 @@ body {
     .image-container img {
         width: 100%; 
     }
-  }
-  
+}
